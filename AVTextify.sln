@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVTextify", "AVTextify.csproj", "{77A98652-A4B5-4758-AEC8-3C5D1A069C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AVTextify.CSharp", "src\AVTextify.CSharp\AVTextify.CSharp.csproj", "{47A3DB40-3249-4612-884C-46E69C16AA87}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "AVTextify.Python", "src\AVTextify.Python\AVTextify.Python.pyproj", "{B87CA757-A8F6-4286-9860-B12F2A6DFCA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{77A98652-A4B5-4758-AEC8-3C5D1A069C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77A98652-A4B5-4758-AEC8-3C5D1A069C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77A98652-A4B5-4758-AEC8-3C5D1A069C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77A98652-A4B5-4758-AEC8-3C5D1A069C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A3DB40-3249-4612-884C-46E69C16AA87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A3DB40-3249-4612-884C-46E69C16AA87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A3DB40-3249-4612-884C-46E69C16AA87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A3DB40-3249-4612-884C-46E69C16AA87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87CA757-A8F6-4286-9860-B12F2A6DFCA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87CA757-A8F6-4286-9860-B12F2A6DFCA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
